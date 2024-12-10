@@ -1,0 +1,97 @@
+.w-4 {
+  width: 1rem;
+}
+.h-4 {
+  height: 1rem;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+.h-6 {
+  height: 1.5rem;
+}
+
+.dropzone {
+  background: white;
+  border-radius: 5px;
+  border: 2px dashed rgb(0, 135, 247);
+  border-image: none;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login-page {
+  /* background-image: url('../img/avatar.png'); */
+}
+
+.divider {
+    border: 0;
+    height: 1px;
+    background-color: #808080;
+    margin: 3px 0;
+}
+
+.dashboard-icon { color: #3498db; }   /* Light Blue */
+.user-icon { color: #2ecc71; }        /* Green */
+.rating-icon { color: #e74c3c; }      /* Red */
+.category-icon { color: #9b59b6; }    /* Purple */
+.product-icon { color: #f39c12; }     /* Orange */
+.stock-icon { color: #e67e22; }       /* Dark Orange */
+.discount-icon { color: #c0392b; }    /* Dark Red */
+.shipping-icon { color: #2980b9; }    /* Dark Blue */
+.order-icon { color: #16a085; }       /* Teal */
+.page-icon { color: #8e44ad; }        /* Violet */
+.permission-icon { color: #34495e; }  /* Dark Gray */
+
+/* Hide the default file input */
+input[type="file"] {
+    display: none;
+}
+
+/* Tùy chỉnh nhãn file (label) */
+.file-label {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+/* Style for the custom label */
+.file-label:hover {
+    background-color: #0056b3;
+}
+
+/* Style for the image preview */
+.image-preview {
+    margin-top: 10px;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.file-label i {
+    margin-right: 8px; /* Khoảng cách giữa icon và chữ */
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.message-time {
+    font-size: 12px;
+    font-style: italic;
+    margin: .1em;
+}
+
+.notification .badge {
+    padding: 5px 10px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+}
